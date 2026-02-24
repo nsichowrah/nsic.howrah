@@ -6,4 +6,4 @@ const API = axios.create({
 });
 
 export const getLatestSensorData = () =>
-  API.get("/api/sensor/latest");
+  API.get("https://backend-ten-alpha-44.vercel.app//api/sensor/latest");
