@@ -1,7 +1,8 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: import.meta.env.VITE_API_URL
+  baseURL: https://backend-ten-alpha-44.vercel.app/
+  
 });
 
 export const getLatestSensorData = () =>
